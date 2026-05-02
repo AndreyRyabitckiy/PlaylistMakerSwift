@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ButtonPlayListMaker: View {
-    var label: String
+    let label: String
     let action: () -> Void
         
     var body: some View {
