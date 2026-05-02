@@ -28,20 +28,20 @@ struct TrackItem: View {
             
             VStack(alignment: .leading, spacing: 0) {
                 Text(track.trackName)
-                    .foregroundColor(Color.text)
+                    .foregroundColor(Color.colorText)
                     .font(.system(size: 16, weight: Font.Weight.regular))
                     .lineLimit(1)
                 
                 HStack(spacing: 0) {
                     Text(track.groupName)
-                        .foregroundColor(Color.grayText)
+                        .foregroundColor(Color.colorGrayText)
                         .font(.system(size: 11, weight: Font.Weight.regular))
                         .lineLimit(1)
                     
                     Image(ImageResource.icDot12)
                     
                     Text(track.trackDuration)
-                        .foregroundColor(Color.grayText)
+                        .foregroundColor(Color.colorGrayText)
                         .font(.system(size: 11, weight: Font.Weight.regular))
                         .lineLimit(1)
                 }
@@ -53,7 +53,7 @@ struct TrackItem: View {
                 .padding(.trailing, 12)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.background)
+        .background(Color.colorBackground)
     }
 }
 
