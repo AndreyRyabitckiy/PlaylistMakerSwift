@@ -13,12 +13,12 @@ struct TrackItem: View {
             } else {
                 AsyncImage(url: URL(string: track.albumImageUrl)) { status in
                     switch status {
-                        case .empty: ProgressView()
-                        case .success(let image): image
+                    case .empty: ProgressView()
+                    case .success(let image): image
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                        case .failure: Image(ImageResource.icPlaceholder45)
-                        @unknown default: EmptyView()
+                    case .failure: Image(ImageResource.icPlaceholder45)
+                    @unknown default: EmptyView()
                     }
                 }
                 .frame(width: 45, height: 45)

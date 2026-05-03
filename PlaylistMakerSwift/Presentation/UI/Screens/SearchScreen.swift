@@ -49,11 +49,11 @@ struct SearchScreen: View {
                 Image(
                     colorScheme == .light ? ImageResource.icErrorLight120 : ImageResource.icErrorDark120
                 )
-                    .frame(
-                        maxWidth:.infinity,
-                        alignment: .center
-                    )
-                    
+                .frame(
+                    maxWidth:.infinity,
+                    alignment: .center
+                )
+                
                 
                 Text("Проблемы со связью \n\nЗагрузка не удалась. Проверьте подключение к интернету")
                     .font(.system(size: 19, weight: Font.Weight.medium))
@@ -65,7 +65,7 @@ struct SearchScreen: View {
                 
                 ButtonPlayListMaker(label: "Обновить") {
                     
-                    }
+                }
                 .frame(maxWidth: .infinity)
                 .padding(24)
                 
@@ -95,7 +95,7 @@ struct SearchScreen: View {
                     
                     ButtonPlayListMaker(label: "Очистить историю") {
                         
-                        }
+                    }
                     .padding(.top, 24)
                 }
                 .frame(maxHeight: .infinity, alignment: .top)

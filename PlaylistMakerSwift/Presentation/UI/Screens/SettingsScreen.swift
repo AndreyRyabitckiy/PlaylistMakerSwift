@@ -10,7 +10,7 @@ struct SettingsScreen: View {
                 .foregroundColor(Color.colorText)
                 .font(.system(size: 22, weight: Font.Weight.medium))
                 .padding(EdgeInsets(top: 14, leading: 16, bottom: 16, trailing: 0))
-
+            
             SettingsLine(
                 label: "Поделиться приложением",
                 lineType: .SwitchLine,

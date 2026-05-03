@@ -3,7 +3,7 @@ import SwiftUI
 struct ButtonPlayListMaker: View {
     let label: String
     let action: () -> Void
-        
+    
     var body: some View {
         Button(action: action) {
             VStack {

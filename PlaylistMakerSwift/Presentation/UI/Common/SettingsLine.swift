@@ -10,7 +10,7 @@ struct SettingsLine: View {
     var body: some View {
         
         switch lineType {
-            case .ImageLine:
+        case .ImageLine:
             Button(action: action) {
                 Text(label)
                     .font(.system(size: 16, weight: .regular))
@@ -21,11 +21,11 @@ struct SettingsLine: View {
                 
                 if let image = image {
                     Image(image)
-                    .padding(.trailing, 12)
+                        .padding(.trailing, 12)
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-                
+            
         case .SwitchLine:
             HStack(spacing: 0) {
                 Text(label)

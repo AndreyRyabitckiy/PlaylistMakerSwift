@@ -18,8 +18,8 @@ struct PlayListItem: View {
             } else {
                 AsyncImage(url: URL(string: playList.image)) { status in
                     switch status {
-                        case .empty: ProgressView()
-                        case .success(let image): image
+                    case .empty: ProgressView()
+                    case .success(let image): image
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(
@@ -28,8 +28,8 @@ struct PlayListItem: View {
                                 alignment: .center
                             )
                             .clipped()
-                        case .failure: Image(ImageResource.icPlaceholder45)
-                        @unknown default: EmptyView()
+                    case .failure: Image(ImageResource.icPlaceholder45)
+                    @unknown default: EmptyView()
                     }
                 }
             }
