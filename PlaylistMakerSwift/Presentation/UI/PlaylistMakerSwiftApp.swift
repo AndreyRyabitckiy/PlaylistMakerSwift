@@ -4,7 +4,7 @@ import SwiftUI
 struct PlaylistMakerSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            MainMenu()
+            
         }
     }
 }

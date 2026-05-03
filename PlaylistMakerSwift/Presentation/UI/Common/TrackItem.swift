@@ -6,7 +6,7 @@ struct TrackItem: View {
     var body: some View {
         HStack(spacing: 0){
             if track.albumImageUrl.isEmpty {
-                Image(ImageResource.icTrackPlaceholder45)
+                Image(ImageResource.icPlaceholder45)
                     .frame(width: 45, height: 45)
                     .padding(.leading, 12)
                     .padding(.vertical, 8)
@@ -17,7 +17,7 @@ struct TrackItem: View {
                         case .success(let image): image
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                        case .failure: Image(ImageResource.icTrackPlaceholder45)
+                        case .failure: Image(ImageResource.icPlaceholder45)
                         @unknown default: EmptyView()
                     }
                 }

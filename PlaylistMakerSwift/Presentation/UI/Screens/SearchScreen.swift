@@ -71,25 +71,12 @@ struct SearchScreen: View {
                 
                 Spacer()
             case .notFoundState:
-                    Spacer()
-                    
-                    Image(
-                        colorScheme == .light ? ImageResource.icNotFoundLight120 : ImageResource.icNotFoundDark120
+                ListIsEmptyError(label: "Ничего не нашлось")
+                    .frame(
+                        maxWidth: .infinity,
+                        maxHeight: .infinity,
+                        alignment: .center
                     )
-                        .frame(
-                            maxWidth:.infinity,
-                            alignment: .center
-                        )
-                    
-                    Text("Ничего не нашлось")
-                        .font(.system(size: 19, weight: Font.Weight.medium))
-                        .frame(
-                            maxWidth:.infinity,
-                            alignment: .center
-                        )
-                        .padding(16)
-                    
-                    Spacer()
             case .historyState:
                 LazyVStack {
                     Text("Вы искали")
