@@ -144,19 +144,31 @@ struct SearchScreen: View {
                 id: 1, trackName: "Here Comes The Sun",
                 groupName: "The Beatles",
                 trackDuration: "2:30",
-                albumImageUrl: ""
+                albumImageUrl: "",
+                albumName: "Yesterday (Remastered 2009)",
+                yearRelease: "1965",
+                countryRelease: "Великобритания",
+                primaryGenreName: "Rock"
             ),
             TrackUIModel(
                 id: 2, trackName: "Here Comes The Sun",
                 groupName: "The Beatles",
                 trackDuration: "4:01",
-                albumImageUrl: "https://images.firma-gamma.ru/images/2/8/d100032710154u_3.jpg"
+                albumImageUrl: "https://images.firma-gamma.ru/images/2/8/d100032710154u_3.jpg",
+                albumName: "Yesterday (Remastered 2009)",
+                yearRelease: "1965",
+                countryRelease: "Великобритания",
+                primaryGenreName: "Rock"
             ),
             TrackUIModel(
                 id: 3, trackName: "Here Comes The Sun",
                 groupName: "The Beatles",
                 trackDuration: "3:01",
-                albumImageUrl: ""
+                albumImageUrl: "",
+                albumName: "Yesterday (Remastered 2009)",
+                yearRelease: "1965",
+                countryRelease: "Великобритания",
+                primaryGenreName: "Rock"
             )
         ]
     )
@@ -171,19 +183,31 @@ struct SearchScreen: View {
                 id: 1, trackName: "Here Comes The Sun",
                 groupName: "The Beatles",
                 trackDuration: "2:30",
-                albumImageUrl: ""
+                albumImageUrl: "",
+                albumName: "Yesterday (Remastered 2009)",
+                yearRelease: "1965",
+                countryRelease: "Великобритания",
+                primaryGenreName: "Rock"
             ),
             TrackUIModel(
                 id: 2, trackName: "Here Comes The Sun",
                 groupName: "The Beatles",
                 trackDuration: "4:01",
-                albumImageUrl: "https://images.firma-gamma.ru/images/2/8/d100032710154u_3.jpg"
+                albumImageUrl: "https://images.firma-gamma.ru/images/2/8/d100032710154u_3.jpg",
+                albumName: "Yesterday (Remastered 2009)",
+                yearRelease: "1965",
+                countryRelease: "Великобритания",
+                primaryGenreName: "Rock"
             ),
             TrackUIModel(
                 id: 3, trackName: "Here Comes The Sun",
                 groupName: "The Beatles",
                 trackDuration: "3:01",
-                albumImageUrl: ""
+                albumImageUrl: "",
+                albumName: "Yesterday (Remastered 2009)",
+                yearRelease: "1965",
+                countryRelease: "Великобритания",
+                primaryGenreName: "Rock"
             )
         ]
     )

@@ -12,7 +12,7 @@ struct SettingsScreen: View {
                 .padding(EdgeInsets(top: 14, leading: 16, bottom: 16, trailing: 0))
             
             SettingsLine(
-                label: "Поделиться приложением",
+                label: "Темная тема",
                 lineType: .SwitchLine,
                 image: nil,
                 action: {}

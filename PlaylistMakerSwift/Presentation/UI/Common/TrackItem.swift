@@ -60,10 +60,15 @@ struct TrackItem: View {
 #Preview {
     TrackItem(
         track: TrackUIModel(
-            id: 1, trackName: "Here Comes The Sun",
+            id: 1,
+            trackName: "Here Comes The Sun",
             groupName: "The Beatles",
             trackDuration: "4:01",
-            albumImageUrl: ""
+            albumImageUrl: "",
+            albumName: "Yesterday (Remastered 2009)",
+            yearRelease: "1965",
+            countryRelease: "Великобритания",
+            primaryGenreName: "Rock"
         )
     )
 }

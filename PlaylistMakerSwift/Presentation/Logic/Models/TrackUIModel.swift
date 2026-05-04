@@ -4,4 +4,8 @@ struct TrackUIModel: Identifiable {
     let groupName: String
     let trackDuration: String
     let albumImageUrl: String
+    let albumName: String?
+    let yearRelease: String
+    let countryRelease: String
+    let primaryGenreName: String
 }
